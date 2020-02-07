@@ -1,0 +1,27 @@
+{
+  "name": "lambda-emf-demo",
+  "version": "1.0.0",
+  "description": "Demo of using AWS Lambda with the Embedded Metric Format support from CloudWatch",
+  "main": "handler.js",
+  "scripts": {
+    "sls": "serverless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theburningmonk/lambda-emf-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theburningmonk/lambda-emf-demo/issues"
+  },
+  "homepage": "https://github.com/theburningmonk/lambda-emf-demo#readme",
+  "dependencies": {
+    "aws-embedded-metrics": "^1.0.1",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "serverless": "^1.63.0"
+  }
+}
